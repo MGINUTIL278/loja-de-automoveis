@@ -1,0 +1,103 @@
+/*
+## Colors
+
+- Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+*/
+
+/*
+Font 
+
+Weights: 400, 600, 700
+*/
+
+html {                                                                                             
+    background-color: rgb(12, 12, 12);
+    margin: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 14px;
+}
+
+.menu {
+    margin-top: 70px;
+    background-color: hsl(0, 0%, 8%);
+    height: 370px;
+    width: 300px;
+    justify-self: center;
+    text-align: center;
+    padding: 40px 50px 120px 50px;
+    border-radius: 10px;
+}
+
+.attribution {
+    align-content: end;
+    justify-content: end;
+}
+
+h2 {
+    color:hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+img {
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.london {
+    color: hsl(75, 94%, 57%);
+    margin: 0;
+    margin-top: 7px;
+    margin-bottom: 25px;
+     font-weight: 500;
+     font-style: initial;
+}
+
+.front-end {
+    color: rgb(175, 175, 175);
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.opcoes {
+    display: grid;
+    color: white;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    background: hsl(0, 0%, 15%);
+    padding: 11px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+   font-weight: 550;
+   font-size: 15px;
+   width: 310px;
+   margin-left: -14px;
+}
+
+a:hover {
+   background-color: hsl(75, 94%, 57%);
+    color: black;
+}
